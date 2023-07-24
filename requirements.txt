@@ -1,0 +1,6 @@
+requests
+fastapi
+pandas
+uvicorn
+sqlmodel
+psycopg2-binary
