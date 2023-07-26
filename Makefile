@@ -22,9 +22,9 @@ venv:
 .PHONY: install
 install:
 	source .venv/bin/activate # Create virtual env
-	.venv/bin/pip install -r requirements.txt # Install packages in requirements.txt
+	.venv/bin/pip install -r requirements-dev.txt # Install packages in requirements-dev.txt
 
 .PHONY: update
 update:
 	source .venv/bin/activate # Create virtual env
-	.venv/bin/pip install -U -r requirements.txt # Install packages in requirements.txt	
+	.venv/bin/pip install -U -r requirements-dev.txt # Install packages in requirements-dev.txt	

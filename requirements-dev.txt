@@ -1,0 +1,11 @@
+# project libraries
+requests
+fastapi
+pandas
+uvicorn
+sqlmodel
+psycopg2-binary
+
+# testing libraries
+pytest
+httpx
